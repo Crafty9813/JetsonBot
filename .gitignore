@@ -1,0 +1,9 @@
+.venv
+*.pt
+
+# Specific files
+follow.py
+test_yolo.py
+
+# Specific folders
+yolov8n_ncnn_model/
