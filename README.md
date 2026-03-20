@@ -1,0 +1,2 @@
+### Run a docker container since has pre-built images for GPU accel
+sudo docker run -it --device=/dev/video0 --ipc=host --runtime=nvidia -v ~/Desktop/robot_main:/workspace ultralytics/ultralytics:latest-jetson-jetpack6
